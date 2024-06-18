@@ -2,7 +2,7 @@
   "crons": [
     {
       "path": "/api/slack/weekly-scrum",
-      "schedule": "50 25 * * *"
+      "schedule": "38 0 * * *"
     }
   ]
 }
