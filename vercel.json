@@ -1,15 +1,8 @@
 {
-  "version": 2,
-  "builds": [
+  "crons": [
     {
-      "src": "api/**/*.ts",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/slack/weekly-scrum/postThread",
-      "dest": "/api/slack/weekly-scrum/postThread.ts"
+      "path": "/api/slack/weekly-scrum",
+      "schedule": "0 25 * * *"
     }
   ]
 }
